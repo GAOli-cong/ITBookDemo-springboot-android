@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <EditText
+                        android:id="@+id/edt_bookName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_edit"
+                        android:textColorHint="#BFBFBF"
+                        android:padding="10dp"
+                        android:textColor="#000"
+                        android:hint="请输入书名"
+                        android:singleLine="true"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:id="@+id/btn_imgSousuo"
+                        android:layout_width="55sp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/sousuo"/>
+                    <TextView
+                        android:id="@+id/shuaxinshuju"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:background="#0099ff"
+                        android:text="刷新数据"/>
+
+                </LinearLayout>
+
+
+            <ListView
+                android:id="@+id/menu_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_shangye"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/buttonstyle"
+                android:text="上一页"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <TextView
+                    android:id="@+id/tv_currentPage"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="第155页"/>
+                <EditText
+                    android:id="@+id/edt_yema"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:numeric="integer"
+                    android:background="@drawable/bg_edit"
+                    android:textColorHint="#bfbfbf"
+                    android:textColor="#000"
+                    android:textSize="19sp"
+                    android:layout_weight="1"
+                    android:hint="输入页码"/>
+                <Button
+                    android:id="@+id/btn_tiaozhuan"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/buttonstyle"
+                    android:layout_weight="4"
+                    android:text="跳转"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_next"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/buttonstyle"
+
+                android:text="下一页"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
