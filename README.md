@@ -2,13 +2,14 @@
 基于安卓原生和springboot后台的图书管理系统
 
 
-ITBook是安卓项目
-login-register是java后台项目
+ITBook文件夹是安卓项目
+
+login-register文件夹是java后台项目
 
 ## 项目简介
 根据springboot+mybatis后端返回json格式数据，完成登录、注册，图书列表页面的展示（增删改查）功能。
 
-[登录注册的相关可以查看上2篇博客](https://blog.csdn.net/glc11223344/article/details/105822237)
+[登录注册的相关介绍可以查看此csdn博客](https://blog.csdn.net/glc11223344/article/details/105822237)
 
 ## 工具
 **java后台：**
