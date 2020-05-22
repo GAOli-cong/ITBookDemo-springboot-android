@@ -2,6 +2,9 @@
 基于安卓原生和springboot后台的图书管理系统
 
 
+[csdn博客地址](https://blog.csdn.net/glc11223344/article/details/105934214)
+
+
 ITBook文件夹是安卓代码
 
 login-register文件夹是java后台代码
