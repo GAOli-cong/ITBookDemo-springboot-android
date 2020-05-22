@@ -18,6 +18,8 @@ mysql版本：5.7版本
  数据库中图书Item表资源来源于这位大佬 [weixin_43912367](https://blog.csdn.net/weixin_43912367)
 
 通过springboot2.x+mybatis+mysql，通过pagehelper插件完成数据的分页功能
+
+
 **安卓前台：**
 开发工具：Android Studio
 接口测试工具：postman
